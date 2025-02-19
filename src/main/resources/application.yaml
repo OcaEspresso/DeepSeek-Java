@@ -1,0 +1,5 @@
+deepseek:
+  api:
+    url: "http://localhost:11434/api/generate"   # DeepSeek API 地址
+    model: "deepseek-r1:7b"                      # 默认使用的模型
+    timeout: 5000                                # 超时时间（单位：毫秒）
